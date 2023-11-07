@@ -20,9 +20,14 @@ Before running the application, ensure you have Python installed on your system.
 1. ### Start by cloning the repository to your local machine:
    ```
    git clone https://github.com/trushmi/text-to-speech-converter.git
+   ```
+2. ### Navigate to your project directory:
+
+   ```
    cd your-project-directory-name
    ```
-2. ### Setup the virtual environment:
+
+3. ### Setup the virtual environment:
 
    - Create a virtual environment to manage your project's dependencies separately:
 
@@ -30,17 +35,29 @@ Before running the application, ensure you have Python installed on your system.
    virtualenv env
    ```
 
-3. ### Activate virtual environment
+4. ### Activate virtual environment
 
    ```
-   source env/bin/activate   # On Windows use `env\Scripts\activate`
+   source env/bin/activate
    ```
 
-4. Install all requirements
+5. ### Install all requirements
+
    Install the project requirements:
 
    ```
    pip3 install -r requirements.txt
+   ```
+
+6. ### Run the Application
+   Now, start the server:
+   ```
+   python3 app.py
+   ```
+7. ### Access the App
+   Open your web browser and navigate to the following address to access the app:
+   ```
+   http://localhost:5000/
    ```
 
 ### Contributing
@@ -52,3 +69,7 @@ If you would like to contribute to the project, please follow these steps:
 - Make your changes and commit them with descriptive commit messages.
 - Push your changes to your fork.
 - Submit a pull request to the main repository.
+
+```
+
+```
