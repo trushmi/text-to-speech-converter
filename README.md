@@ -16,30 +16,31 @@ To use the application, follow these steps:
 
 Before running the application, ensure you have Python installed on your system. This application was developed with Python 3.
 
-1. Start by cloning the repository to your local machine:
+1. ### Start by cloning the repository to your local machine:
    ```
-   Clone this repository or download the source code.
+   git clone https://github.com/trushmi/text-to-speech-converter.git
    cd your-project-directory-name
    ```
-2. Setup the virtual environment:
-   Create a virtual environment to manage your project's dependencies separately:
+2. ### Setup the virtual environment:
 
-```
-virtualenv env
-```
+   - Create a virtual environment to manage your project's dependencies separately:
 
-3. Activate virtual environment
+   ```
+   virtualenv env
+   ```
 
-```
-source env/bin/activate   # On Windows use `env\Scripts\activate`
-```
+3. ### Activate virtual environment
+
+   ```
+   source env/bin/activate   # On Windows use `env\Scripts\activate`
+   ```
 
 4. Install all requirements
    Install the project requirements:
 
-```
-pip3 install -r requirements.txt
-```
+   ```
+   pip3 install -r requirements.txt
+   ```
 
 ### Contributing
 

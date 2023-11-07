@@ -14,10 +14,6 @@ body {
   background-color: wheat;
   color: black;
 }
-body.dark-theme {
-  background-color: black;
-  color: white;
-}
 
 .form-container {
   text-align: center;
