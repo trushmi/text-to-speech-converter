@@ -1,6 +1,7 @@
 # Text to Speech Converter
 
-This is a web application built with Flask that converts text into speech. It uses the `gTTS` (Google Text-to-Speech) library for generating the speech and `langdetect` for auto-detecting the language of the input text.
+This is a fully responsive web application built with Flask that converts text into speech in just one click. It uses the gTTS (Google Text-to-Speech API) library for generating the speech and langdetect for auto-detecting the language of the input text.
+<img width="1723" alt="Screenshot 2023-11-07 at 9 54 58 AM" src="https://github.com/trushmi/text-to-speech-converter/assets/88466266/21f1a006-ac73-4f99-8c84-1c9b8905c23b">
 
 ### Usage
 
