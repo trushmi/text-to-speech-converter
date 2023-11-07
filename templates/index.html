@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Text to Speech Converter</h1>
+      <div class="loader"></div>
+      <form action="/" method="post" id="textForm">
+        <textarea
+          class="form-control"
+          id="exampleTextarea"
+          rows="10"
+          cols="300"
+          name="text"
+          required
+          placeholder="Enter your text here..."
+        ></textarea>
+        <div class="btn-container">
+          <button type="submit" class="btn btn-outline-dark">
+            Convert and listen
+          </button>
+        </div>
+        <div class="audio-container">
+          <audio id="audio" controls>
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </form>
+    </div>
+  </body>
+  {%block script%}
+  <script src="/static/js/main.js"></script>
+
+  {%endblock%}
+</html>
